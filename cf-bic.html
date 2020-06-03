@@ -1,6 +1,5 @@
 
 <html>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <head>
     <title>CoinField</title>
     <style>
@@ -37,6 +36,20 @@
         font-family: sans-serif;
       }
 
+      .cloudFareInfo2 {
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 14px;
+        margin-top: 12px;
+      }
+
+      @media (max-width: 1023px) {
+        img {
+          width: 200px;
+        }
+      }
+
       /* Heart beat animation */
       @keyframes beat {
         0% {
@@ -60,6 +73,7 @@
 
     <link rel="icon" type="image/png"
     href="https://coinfield.com/images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body style="top: 0 !important;" cz-shortcut-listen="true">
     <div class="cloudfare">
@@ -69,7 +83,7 @@
       <div class="cloudFareInfo">
         ::IM_UNDER_ATTACK_BOX::
       </div>
-      <div class="cloudFareInfo">
+      <div class="cloudFareInfo2">
         <p>DDoS protection by CloudFlare</p>
         <p>Ray ID: <span>::RAY_ID::</span></p>
       </div>
