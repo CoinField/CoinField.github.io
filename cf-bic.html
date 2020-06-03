@@ -26,10 +26,34 @@
       img {
         width: 350px;
         height: auto;
+        animation: beat 5s infinite;
+        transform-origin: center;
       }
 
       .cloudFareInfo {
         color: white;
+        text-align: "center";
+        font-family: sans-serif;
+      }
+
+      /* Heart beat animation */
+      @keyframes beat {
+        0% {
+          transform: scale(0.75);
+        }
+        25% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(0.75);
+        }
+        75% {
+          transform: scale(1);
+        }
+
+        100% {
+          transform: scale(0.75);
+        }
       }
     </style>
 
